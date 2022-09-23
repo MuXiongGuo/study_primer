@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.22)
+project(study_primer)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(5.17 5/5.17.cpp)
+add_executable(9.4 9/9.4.cpp)
+add_executable(9.5 9/9.5.cpp)
+add_executable(9.10 9/9.10.cpp)
+add_executable(9.14 9/9.14.cpp)
+add_executable(9.26 9/9.26.cpp)
+add_executable(oj19 oline_judge/oj19.cpp)
+add_executable(oj18 oline_judge/oj18.cpp)
+add_executable(oj16 oline_judge/oj16.cpp)
