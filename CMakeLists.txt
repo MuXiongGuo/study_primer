@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.22)
 project(study_primer)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(5.17 5/5.17.cpp)
 add_executable(9.4 9/9.4.cpp)
 add_executable(9.5 9/9.5.cpp)
 add_executable(9.10 9/9.10.cpp)
@@ -14,8 +14,8 @@ add_executable(oj18 oline_judge/oj18.cpp)
 add_executable(oj16 oline_judge/oj16.cpp)
 add_executable(main main.cpp)
 add_executable(oj20 oline_judge/oj20.cpp)
-add_executable(oj149 oline_judge/oj149.cpp)
-add_executable(oj135 oline_judge/oj135.cpp)
+add_executable(oj149 oline_judge/149.cpp)
+add_executable(oj135 oline_judge/135.cpp)
 add_executable(1_1 acm/1_1.cpp)
 add_executable(305 oline_judge/305.cpp)
 add_executable(oj23 oline_judge/oj23.cpp)
@@ -30,3 +30,14 @@ add_executable(127 oline_judge/127.cpp)
 add_executable(757 oline_judge/757.cpp)
 add_executable(oj78 oline_judge/oj78.cpp)
 add_executable(oj79 oline_judge/oj79.cpp)
+add_executable(oj25 oline_judge/oj25.cpp)
+add_executable(oj41 oline_judge/oj41.cpp)
+add_executable(oj42 oline_judge/oj42.cpp)
+
+
+
+
+add_executable(oj43 oline_judge/oj43.cpp)
+add_executable(oj44 oline_judge/oj44.cpp)
+
+add_executable(136 oline_judge/136.cpp)
