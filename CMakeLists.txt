@@ -41,3 +41,4 @@ add_executable(oj43 oline_judge/oj43.cpp)
 add_executable(oj44 oline_judge/oj44.cpp)
 
 add_executable(136 oline_judge/136.cpp)
+add_executable(hm1_2 acm/hm1_2.cpp)
