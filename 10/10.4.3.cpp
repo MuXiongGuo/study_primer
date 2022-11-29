@@ -27,8 +27,10 @@ int main() {
     cout << cnt << endl;
 
     // 10.37
-    vector<int> vec = {1,2,3,4,5,6,7,8,9,10}, vec3;
-
-
+    vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
+    list<int> lst3;
+    auto it = front_inserter(lst3);
+    copy(vec.begin()+3, vec.begin()+7, it);
+    //copy(vec.rbegin()+size-3, vec.rbegin()+size-7, it); it 为push_back也是可以的
     return 0;
 }
