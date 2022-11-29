@@ -64,3 +64,5 @@ add_executable(10.3.4 10/10.3.4.cpp)
 add_executable(10.4.1 10/10.4.1.cpp)
 add_executable(10.4.2 10/10.4.2.cpp)
 add_executable(10.4.3 10/10.4.3.cpp)
+
+add_executable(11.2.2 11/11.2.2.cpp)
