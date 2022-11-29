@@ -44,5 +44,7 @@ int main() {
     }
     // 11.11
     // typedef ......
+    // typedef void(*P)(int a);//可以把P理解为一个类
+    // using P = void(*)(int a);//等价上一条
     return 0;
 }
